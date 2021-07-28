@@ -1,0 +1,36 @@
+{
+  "name": "real-mock-serve",
+  "version": "1.0.0",
+  "description": "动态配置化接口路径，数据mock，更贴合真实业务",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon -e ts --exec ts-node app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huang-guanhua/realMockServe.git"
+  },
+  "keywords": [
+    "mock",
+    "data"
+  ],
+  "author": "huangguanhua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huang-guanhua/realMockServe/issues"
+  },
+  "homepage": "https://github.com/huang-guanhua/realMockServe#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
+}
